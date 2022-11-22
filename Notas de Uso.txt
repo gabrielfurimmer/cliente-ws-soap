@@ -1,4 +1,6 @@
-Se realiza consumo en base al servicio calculadora.
-En la clase CalculadoraCliente se realiza la invocación al servicio y su consumo con las diferentes operaciones.
-Obtenemos la url del servicio gracias al objeto creado de la clase CalculadoraImplService.
-Se utilizó la herramienta Web Service Client de eclipse para la generación de clases ligadas al servicio creado para fines de prueba.
+Esto fue trabajado con jdk 8, en especifico 8.0.352.8. Se creo webservice para pruebas.
+La clase CalculadoraPublish fue utilizada para levantar el servicio y posteriormente consumirlo con un cliente.
+En esta calculadora se encuentran las operaciones básicas: suma, resta, multiplicación y división. Sin validaciones para fines de pruebas.
+Al consumir el servicio, se requieren 3 parámetros.
+La operación de 1 a 4 (el primer parametro), dependiendo del número será la operación realizada siendo 1:suma,2:resta,3:multiplicacion,4:divison.
+Los otros dos parametros serán los numeros sobre los cuales se realizan las operaciones.
