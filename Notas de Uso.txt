@@ -1,2 +1,3 @@
 Esto fue trabajado con jdk 8, en especifico 8.0.352.8. Se creo webservice para pruebas.
-La clase CalculadoraPublish fue utilizada para levantar el servicio y posteriormente consumirlo con un cliente
+La clase CalculadoraPublish fue utilizada para levantar el servicio y posteriormente consumirlo con un cliente.
+En esta calculadora se encuentran las operaciones básicas: suma, resta, multiplicación y división. Sin validaciones para fines de pruebas.
