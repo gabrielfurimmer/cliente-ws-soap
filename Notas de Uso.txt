@@ -1,0 +1,2 @@
+Esto fue trabajado con jdk 8, en especifico 8.0.352.8. Se creo webservice para pruebas.
+La clase CalculadoraPublish fue utilizada para levantar el servicio y posteriormente consumirlo con un cliente
